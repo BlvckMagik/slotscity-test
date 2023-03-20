@@ -1,0 +1,7 @@
+$mobile-size: 770px;
+
+@mixin sm-screen {
+  @media screen and (max-width: $mobile-size) {
+    @content;
+  }
+}
